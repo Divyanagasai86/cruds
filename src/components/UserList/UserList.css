@@ -1,0 +1,35 @@
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+th {
+  background: rgb(147, 194, 255);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+}
+td {
+  padding: 1rem;
+  background: rgb(248, 248, 248);
+  color: rgb(0, 0, 0);
+}
+
+.caption{
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+
